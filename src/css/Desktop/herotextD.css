@@ -1,0 +1,68 @@
+.homehero {
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+
+  .herotext {
+    width: 35%;
+    height: 100vh;
+    margin: unset;
+
+    .title {
+      font-size: 54px;
+      line-height: 74px;
+      margin-top: -80px;
+    }
+
+    .description {
+      font-size: 16px;
+      line-height: 28px;
+    }
+
+    .btngroup {
+      align-items: start;
+      justify-content: start;
+      text-align: left;
+      gap: 40px;
+      margin-top: 40px;
+      margin-left: -200px;
+
+      .viewwork {
+        a {
+          font-size: 18px;
+
+          button {
+            all: unset;
+            border-radius: 41px;
+            background-color: var(--workbtn);
+            transition: 400ms;
+            padding: 16px 56px;
+
+            &:hover {
+              transform: scale(85%);
+            }
+          }
+        }
+      }
+
+      .pricing {
+        font-size: 16px;
+        font-weight: 500;
+
+        gap: 15px;
+
+        margin-top: 18px;
+      }
+    }
+  }
+
+  .illustration {
+    width: 40%;
+
+    margin-top: -40px;
+    img {
+      width: 100%;
+    }
+  }
+}

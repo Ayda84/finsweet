@@ -1,0 +1,88 @@
+.how-work {
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+  gap: 142px;
+
+  .we-work {
+    width: 25%;
+    height: 100vh;
+    margin-top: unset;
+    text-align: left;
+    align-items: start;
+    justify-content: start;
+    margin-top: 600px;
+
+    .top-work {
+      font-family: Poppins;
+      font-size: 48px;
+      font-weight: 600;
+      line-height: 64px;
+      color: #282938;
+      margin-top: -120px;
+      padding-left: 40px;
+    }
+
+    .how-description {
+      font-family: Poppins;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 28px;
+      color: #282938;
+      opacity: 0.7;
+      margin: 16px 0 16px 35px;
+    }
+
+    .touch {
+      font-family: Poppins;
+      font-size: 13px;
+      font-weight: 500;
+      line-height: 32px;
+      margin-top: 0px;
+      padding-left: 36px;
+      color: #2405f2;
+    }
+  }
+
+  .cards {
+    width: 50%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+
+    .top-cards {
+      width: 65%;
+      height: 230px;
+      display: flex;
+      flex-flow: row nowrap;
+      align-items: center;
+      justify-content: center;
+      gap: 80px;
+
+      .card {
+        img {
+          width: 140%;
+          object-fit: cover;
+        }
+      }
+    }
+    .bottom-cards {
+      width: 65%;
+      height: 230px;
+      display: flex;
+      flex-flow: row nowrap;
+      align-items: center;
+      justify-content: center;
+      gap: 80px;
+      margin-top: 20px;
+
+      .card {
+        img {
+          width: 140%;
+          object-fit: cover;
+        }
+      }
+    }
+  }
+}

@@ -1,4 +1,99 @@
-.hero-text{
-    width: 100%;
-    
+.homehero {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--mainbg);
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+
+  .herotext {
+    width: 60%;
+    height: 380px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto;
+
+    .title {
+      font-family: Poppins;
+      font-size: 35px;
+      font-weight: 600;
+      line-height: 60px;
+      color: #ffffff;
+      margin-top: -40px;
+    }
+
+    .description {
+      font-family: Poppins;
+      font-size: 11px;
+      font-weight: 400;
+      line-height: 20px;
+      color: #ffffff;
+      opacity: 0.7;
+      margin-top: 10px;
+    }
+
+    .btngroup {
+      display: flex;
+      flex-flow: row nowrap;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 35px;
+  
+      .viewwork {
+        a {
+          text-decoration: none;
+          font-family: Manrope;
+          font-size: 12px;
+          font-weight: 600;
+          line-height: 32px;
+          color: #1c2b1b;
+
+  
+          button {
+            all: unset;
+            border-radius: 41px;
+            background-color: var(--workbtn);
+            padding: 5px 12px;
+            transition: 400ms;
+            &:hover {
+              transform: scale(85%);
+            }
+          }
+        }
+      }
+  
+      .pricing {
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 28px;
+        color: #ffffff;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+        vertical-align: center;
+        cursor: pointer;
+      }
+    }
+  
+  }
+
+ 
+  .illustration {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: -40px;
+    img {
+      width: 80%;
+      object-fit: cover;
+    }
+  }
 }
